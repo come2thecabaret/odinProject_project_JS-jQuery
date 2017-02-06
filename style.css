@@ -1,13 +1,15 @@
 
 #gridContainer .square {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-color: rgb(34, 237, 244);
-  margin: 3px;
 }
-#gridContainer .row {
+#gridContainer .squareRow {
   margin: 0;
   padding: 0;
-  height: 26px;
+  height: 30px;
+}
+.toggled {
+  background-color: rgb(212, 55, 55) !important;
 }
