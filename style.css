@@ -1,0 +1,13 @@
+
+#gridContainer .square {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(34, 237, 244);
+  margin: 3px;
+}
+#gridContainer .row {
+  margin: 0;
+  padding: 0;
+  height: 26px;
+}
