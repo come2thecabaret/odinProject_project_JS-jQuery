@@ -1,4 +1,14 @@
-
+.jumbotron {
+  padding-top: 30px;
+}
+.controls {
+  width: 60%;
+  margin: 0 auto;
+}
+#gridContainer {
+  width: 480px;
+  margin: 0 auto;
+}
 #gridContainer .square {
   display: inline-block;
   width: 30px;
@@ -9,7 +19,13 @@
   margin: 0;
   padding: 0;
   height: 30px;
+  width: 480px;
 }
 .toggled {
-  background-color: rgb(212, 55, 55) !important;
+}
+label,input, #inWidth, #inHeight {
+  display: inline;
+}
+#inWidth, #inHeight {
+  width: 60px;
 }

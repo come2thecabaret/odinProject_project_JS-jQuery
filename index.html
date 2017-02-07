@@ -13,12 +13,23 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="clear">
-    <button class="btn btn-info">Clear Grid</button>
+  <div id="main" class="jumbotron">
+  <div class="text-center">
+    <h1>Etch-a-Sketch</h1>
   </div>
-  <div id="gridContainer">
+  <div class="row controls">
 
+    <div class="col-md-6">
+      <label for="inWidth">Canvas Dimension</label>
+      <input class="form-control" id="inDim" type="text">
+    </div>
+    <div class="col-md-6" id="clear" >
+      <button class="btn btn-info">Clear Grid</button>
+    </div>
   </div>
+</div>
+<div id="gridContainer">
+</div>
 </body>
 
 </html>
